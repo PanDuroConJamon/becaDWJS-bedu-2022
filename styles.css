@@ -1,5 +1,5 @@
 body{
-    background-color: #fffbf7;
+    background-color: #c8ebe4;
 }
 
 h1{
@@ -27,6 +27,8 @@ button{
 
 li{
     display: inline;
+    padding-left: 25px;
+    color: #025157;
 }
 
 .header > *{
@@ -44,14 +46,30 @@ li{
     width: 15%;
 }
 .navbar{
-    width: 70%;
-    text-align: center;
+    width: 60%;
+    text-align: left;
     color: #025157;
     font-weight: 500;
+    font-family: sans-serif;
+    height: 45px;
 }
+
 .actions{
-    width: 15%;
-    text-align: right;
+    width: 25%;
+    text-align: left;
     font-size: 14px;
     font-weight: 500;
+}
+.actions > *{
+    padding-left: 10px;
+}
+.SignIn{
+    
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+.main{
+    margin-top: 140px;
+    text-align: center;
 }
